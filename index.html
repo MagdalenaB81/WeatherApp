@@ -14,26 +14,33 @@
   </head>
   <body>
     <div class="frame">
-      <form id="search">
+      <form id="search-form">
         <input
           type="search"
           id="city-input"
           placeholder="Enter a city..."
           required
+          class="search-form-input"
         />
-        <input type="submit" value="Search" />
+        <input type="submit" value="Search" class="search-button" />
       </form>
 
       <main>
-        <div>
-          <h1>Barcelona</h1>
-          <p>
-            Monday 17:19, scattered clouds
-            <br />
-            Humidity: 80%, Wind: 5.4 km/h
-          </p>
+        <div class="weather-data">
+          <div>
+            <h1 class="weather-city">Barcelona</h1>
+            <p class="weather-details">
+              Monday 17:19, scattered clouds
+              <br />
+              Humidity: <strong>80%</strong>, Wind: <strong>5.4 km/h</strong>
+            </p>
+          </div>
+          <div class="weather-temperature">
+            <div class="weather-icon">🌥</div>
+            <div class="temperature-value">20</div>
+            <div class="temperature-unit">℃</div>
+          </div>
         </div>
-        <div>🌥 20℃</div>
       </main>
 
       <footer>
