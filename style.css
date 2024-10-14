@@ -1,0 +1,14 @@
+body {
+    background-color: rgb(201, 225, 217);
+    font-family: "Poppins", sans-serif;
+}
+.frame {
+background-color: azure;
+max-width: 600px;
+margin: 45px auto;
+padding: 40px;
+border-radius: 10px;
+box-shadow: 0 30px 30px rgb(176, 175, 175);
+}
+
+
